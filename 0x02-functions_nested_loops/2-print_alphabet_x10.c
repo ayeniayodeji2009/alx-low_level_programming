@@ -5,19 +5,21 @@
  *
  *   * followed by a new line
  *
- *   
  */
 void print_alphabet_x10(void)
 {
-int ch;
-int i;
-for(i = 0; i <= 10; i++){
-ch = "a";
-while(ch <= "z"){
-_putchar(ch);
-ch++;
-}
-_putchar("%d\n",i)
-}
- return 0;
+	char ch;
+	int i;
+	i = 0;
+	while (i < 10)
+	{
+	ch = 'a';
+	while (ch <= 'z')
+	{
+	_putchar(ch);
+	ch++;
+	}
+	_putchar('\n');
+	i++;
+	}
 }
