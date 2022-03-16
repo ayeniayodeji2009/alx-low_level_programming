@@ -19,6 +19,5 @@ ch++;
 }
 _putchar("%d\n",i)
 }
-_putchar("\n");
  return 0;
 }
