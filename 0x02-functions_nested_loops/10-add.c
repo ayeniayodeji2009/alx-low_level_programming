@@ -4,16 +4,17 @@
  *
  *  * add - adds two integers and returns the result
  *
- *   * @a: int to be added to b
+ *   * @x: int to be added to x
  *
- *    * @b: int to be added to a
+ *    * @y: int to be added to y
  *
- *     * Return: sum of a and b
+ *     * Return: sum of x and y
  *
  */
 
-int add(int a, int b){
-int c;
-c = a + b;
-return c;
+int add(int x, int y)
+{
+
+		return (x + y);
+
 }
