@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  *
@@ -11,7 +11,7 @@
  *     * Return: sum of x and y
  *
  */
-int add(int, int)
+int add(int x,int y)
 {
 return (x + y);
 }
