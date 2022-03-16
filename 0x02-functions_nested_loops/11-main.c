@@ -14,6 +14,3 @@ int main(void)
     print_to_98(-10);
     return (0);
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
