@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * _atoi - a function that converts string to integer
  *
@@ -6,6 +7,7 @@
  *
  * Return: integer from conversion
  */
+
 int _atoi(char *s)
 {
 	int sign = 1;
